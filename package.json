@@ -1,0 +1,23 @@
+{
+  "name": "bitcube-factorial-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Traceable Playwright automation for the Bitcube QA Engineer factorial-calculator task",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:regression": "playwright test --grep-invert @known-defect",
+    "test:defects": "playwright test --grep @known-defect --project=chromium",
+    "test:mandatory": "playwright test tests/mandatory --project=chromium",
+    "test:smoke": "playwright test --grep @smoke --project=chromium",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
