@@ -1,6 +1,6 @@
-# Bitcube QA Engineer Task — Playwright Automation
+# Bitcube QA Engineer Task : Playwright Automation
 
-TypeScript Playwright automation derived from `Bitcube_Exploratory_Test_Sheet_Final.xlsx`.
+TypeScript Playwright automation for test cases in `Bitcube_Exploratory_Test_Sheet_Final.xlsx`.
 
 ## What is included
 
